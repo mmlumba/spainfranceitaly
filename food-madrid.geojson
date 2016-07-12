@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Mercado de San Miguel",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7111058, 40.4152682]
+    }
+    },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "La Excentrica",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7107476, 40.4172924]
+    }
+  }
+  ]
+}

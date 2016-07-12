@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Bar San Firenze (Hookah)",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.257542, 43.7697168]
+    }
+  }
+  ]
+}

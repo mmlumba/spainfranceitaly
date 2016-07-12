@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Nice Club Rome",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4547157, 41.9151222]
+    }
+  }
+  ]
+}

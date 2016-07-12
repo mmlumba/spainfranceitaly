@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Opium",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.196555, 41.385369]
+    }
+    },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Catwalk",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1947149, 41.3858698]
+    }
+  }
+  ]
+}
