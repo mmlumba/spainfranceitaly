@@ -6,7 +6,8 @@
     "properties": {
       "name": "Numbs Le Bistro",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 2
     },
     "geometry": {
       "type": "Point",
@@ -18,7 +19,8 @@
     "properties": {
       "name": "Pizzeria Montecarlo",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 5
     },
     "geometry": {
       "type": "Point",
@@ -30,7 +32,8 @@
     "properties": {
       "name": "Ristorante Leonetti",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 3
     },
     "geometry": {
       "type": "Point",
@@ -42,11 +45,25 @@
     "properties": {
       "name": "Elettra",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 4
     },
     "geometry": {
       "type": "Point",
       "coordinates": [12.4980753, 41.8989567]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Maccheroni",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.476188,15, 41.9007708]
     }
   }
   ]
