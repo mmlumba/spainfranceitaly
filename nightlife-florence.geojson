@@ -4,13 +4,25 @@
   {
     "type": "Feature",
     "properties": {
-      "name": "Bar San Firenze (Hookah)",
+      "name": "Moyo (Hookah)",
       "marker-color": "#BA55D3",
       "marker-symbol": "bar"
     },
     "geometry": {
       "type": "Point",
-      "coordinates": [11.257542, 43.7697168]
+      "coordinates": [11.2581148, 43.7678422]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Space Club Firenze",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.2462358, 43.7736378]
     }
   }
   ]

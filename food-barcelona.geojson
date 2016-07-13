@@ -6,7 +6,8 @@
     "properties": {
       "name": "Arabia Cafe-Restaurante",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 3
     },
     "geometry": {
       "type": "Point",
@@ -18,12 +19,39 @@
     "properties": {
       "name": "Granjala Pallaresa",
       "marker-color": "#A0522D",
-      "marker-symbol": "restaurant"
+      "marker-symbol": "restaurant",
+      "rating": 4.5
     },
     "geometry": {
       "type": "Point",
       "coordinates": [2.170627, 41.3828789]
     }
   },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "La Paisana",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1591593, 41.3972271]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Pizza Emporio - Sagrada Familia",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 2
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1741048, 41.4043469]
+    }
+  }
   ]
 }
