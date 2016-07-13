@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+  {
     "type": "Feature",
     "properties": {
       "name": "El Corte Ingles",
@@ -11,6 +12,42 @@
       "type": "Point",
       "coordinates": [-3.7048707, 40.4195883]
     }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Royal Palace of Madrid",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7165007, 40.4179591]
     }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Museo Nacional Centro de Arte Reina Sofía",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.6967456, 40.4079164]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Parque de El Retiro",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.6866882, 40.4152647]
+    }
+  }
   ]
 }

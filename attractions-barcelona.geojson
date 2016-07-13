@@ -23,6 +23,42 @@
       "type": "Point",
       "coordinates": [2.1919131, 41.3792734]
     }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Museu d'Història de Barcelona",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1703235, 41.3798901]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Parc Güell",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1525407, 41.4143195]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Basílica de Santa Maria del Pi",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1572966, 41.3915512]
+    }
   }
   ]
 }
