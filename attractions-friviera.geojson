@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Juan Les Pins",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [7.1026604, 43.5710905]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Casino Monte Carlo (Monaco)",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [7.4258741, 43.7391011]
+    }
+  }
+  ]
+}
