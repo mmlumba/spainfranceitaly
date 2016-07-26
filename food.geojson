@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Mercado de San Miguel",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 4,
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7111058, 40.4152682]
+    }
+    },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "La Excentrica",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 5,
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7107476, 40.4172924]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Arabia Cafe-Restaurante",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 3,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1740919, 41.3795781]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Granjala Pallaresa",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 4.5,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.170627, 41.3828789]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "La Paisana",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 4,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1591593, 41.3972271]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Pizza Emporio - Sagrada Familia",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 2,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1741048, 41.4043469]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Numbs Le Bistro",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 2,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.5119765, 41.9229898]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Pizzeria Montecarlo",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 5,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4781031, 41.9048285]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Ristorante Leonetti",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 3,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4974552, 41.8983961]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Elettra",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 4,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4980753, 41.8989567]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Maccheroni",
+      "marker-color": "#A0522D",
+      "marker-symbol": "restaurant",
+      "rating": 5,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.47618815, 41.9007708]
+    }
+  }
+  ]
+}

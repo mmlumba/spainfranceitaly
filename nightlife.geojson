@@ -1,0 +1,94 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Opium",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "Night club open until 6am. Free with guest list.",
+      "cost": 0,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.196555, 41.385369]
+    }
+    },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Catwalk",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "Night club open until 6am. Free with guest list.",
+      "cost": 0,
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1947149, 41.3858698]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Moyo (Hookah)",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "Hookah bar. Price per hookah.",
+      "cost": 30,
+      "city": "Florence"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.2581148, 43.7678422]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Space Club Firenze",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "Night club with karaoke on bottom floor and dance floor on 2nd story. Free with guest list.",
+      "cost": 0,
+      "city": "Florence"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [11.2462358, 43.7736378]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Nice Club Rome",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "A nightclub near Stadio Olimpico.",
+      "cost": 15,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4547157, 41.9151222]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Ice Club Rome",
+      "marker-color": "#BA55D3",
+      "marker-symbol": "bar",
+      "summary": "A bar on Via della Madonna enclosed in ice.",
+      "cost": 10,
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4887756, 41.8941251]
+    }
+  }
+  ]
+}
