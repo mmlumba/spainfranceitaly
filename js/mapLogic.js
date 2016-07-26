@@ -77,7 +77,7 @@ myLayer3.on('layeradd', function(e){
 // Add features to the map
 myLayer.setGeoJSON(geoJson);
 myLayer2.setGeoJSON(geoJson2);
-myLayer3.setGeoJSON(geoJson2);
+myLayer3.setGeoJSON(geoJson3);
 
 //filter
 var filterGroup = document.getElementById('filter-group');
