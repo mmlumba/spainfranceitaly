@@ -2,20 +2,16 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibW1sdW1iYSIsImEiOiJjaXFqd29uYzUwMGdsZ3JqOWRnb
 
 //creates a map with a set view through Mapbox
 var map = L.mapbox.map('map', 'mapbox.streets')
-    .setView([41.901981, 12.503990], 13);
+    .setView([41.32, 9.58], 5.0);
 
-//adds a new layer to the map
-var myLayer = L.mapbox.featureLayer().addTo(map);
+//category layers
+var foodLayer = L.mapbox.featureLayer().addTo(map);
+var attrLayer = L.mapbox.featureLayer().addTo(map);
+var nightLayer = L.mapbox.featureLayer().addTo(map);
 
-var geoJson = myLayer.loadURL('../food-rome.geojson');
-
-var myLayer2 = L.mapbox.featureLayer().addTo(map);
-
-var geoJson2 = myLayer2.loadURL('../attractions-rome.geojson');
-
-var myLayer3 = L.mapbox.featureLayer().addTo(map);
-
-var geoJson3 = myLayer3.loadURL('../nightlife-rome.geojson');
+var foodGeoJson = foodLayer.loadURL('../food.geojson');
+var attrGeoJson = attrLayer.loadURL('../attractions.geojson');
+var nightGeoJson = nightLayer.loadURL('../nightlife.geojson');
 
 function popupMaker(e, templateCreator){
   var marker = e.layer,
@@ -62,22 +58,22 @@ var nightlifeTemplate = function(feature){
           nightlifeCost;
 }
 
-myLayer.on('layeradd', function(e){
+foodLayer.on('layeradd', function(e){
   popupMaker(e, restaurantTemplate);
 });
 
-myLayer2.on('layeradd', function(e){
+attrLayer.on('layeradd', function(e){
   popupMaker(e, attractionTemplate);
 });
 
-myLayer3.on('layeradd', function(e){
+nightLayer.on('layeradd', function(e){
   popupMaker(e, nightlifeTemplate);
 });
 
 // Add features to the map
-myLayer.setGeoJSON(geoJson);
-myLayer2.setGeoJSON(geoJson2);
-myLayer3.setGeoJSON(geoJson2);
+foodLayer.setGeoJSON(foodGeoJson);
+attrLayer.setGeoJSON(attrGeoJson);
+nightLayer.setGeoJSON(nightGeoJson);
 
 //filter
 var filterGroup = document.getElementById('filter-group');

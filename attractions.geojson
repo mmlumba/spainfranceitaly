@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "El Corte Ingles",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7048707, 40.4195883]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Royal Palace of Madrid",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.7165007, 40.4179591]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Museo Nacional Centro de Arte Reina Sofía",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.6967456, 40.4079164]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Parque de El Retiro",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Madrid"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.6866882, 40.4152647]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "La Sagrada Familia",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1721671, 41.4036339]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Playa de la Barceloneta",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1919131, 41.3792734]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Museu d'Història de Barcelona",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1703235, 41.3798901]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Parc Güell",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1525407, 41.4143195]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Basílica de Santa Maria del Pi",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Barcelona"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [2.1572966, 41.3915512]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Juan Les Pins",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Antibes"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [7.1026604, 43.5710905]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Casino Monte Carlo (Monaco)",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Monaco City"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [7.4258741, 43.7391011]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Roman Colosseum",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4900422, 41.8902142]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Roman Forum",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4831363, 41.8924663]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Trevi Fountain",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4811243, 41.9009365]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Spanish Steps",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4805863, 41.905994]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Sistine Chapel",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.4522948, 41.9029508]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "St. Peter's Basilica",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Rome"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.451748, 41.9021707]
+    }
+  }
+  ]
+}
