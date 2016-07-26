@@ -7,15 +7,15 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //adds a new layer to the map
 var myLayer = L.mapbox.featureLayer().addTo(map);
 
-var geoJson = myLayer.loadURL('../food-rome.geojson');
+var geoJson = myLayer.loadURL('../spainfranceitaly/food-rome.geojson');
 
 var myLayer2 = L.mapbox.featureLayer().addTo(map);
 
-var geoJson2 = myLayer2.loadURL('../attractions-rome.geojson');
+var geoJson2 = myLayer2.loadURL('../spainfranceitaly/attractions-rome.geojson');
 
 var myLayer3 = L.mapbox.featureLayer().addTo(map);
 
-var geoJson3 = myLayer3.loadURL('../nightlife-rome.geojson');
+var geoJson3 = myLayer3.loadURL('../spainfranceitaly/nightlife-rome.geojson');
 
 function popupMaker(e, templateCreator){
   var marker = e.layer,
