@@ -6,7 +6,9 @@
     "properties": {
       "name": "Nice Club Rome",
       "marker-color": "#BA55D3",
-      "marker-symbol": "bar"
+      "marker-symbol": "bar",
+      "summary": "A nightclub near Stadio Olimpico.",
+      "cost": 15
     },
     "geometry": {
       "type": "Point",
@@ -18,7 +20,9 @@
     "properties": {
       "name": "Ice Club Rome",
       "marker-color": "#BA55D3",
-      "marker-symbol": "bar"
+      "marker-symbol": "bar",
+      "summary": "A bar on Via della Madonna enclosed in ice.",
+      "cost": 10
     },
     "geometry": {
       "type": "Point",

@@ -7,15 +7,15 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //adds a new layer to the map
 var myLayer = L.mapbox.featureLayer().addTo(map);
 
-//var geoJson = myLayer.loadURL('food-rome.geojson');
+var geoJson = myLayer.loadURL('../food-rome.geojson');
 
 var myLayer2 = L.mapbox.featureLayer().addTo(map);
 
-var geoJson = food();
+var geoJson2 = myLayer2.loadURL('../attractions-rome.geojson');
 
-var geoJson2 = attractions();
+var myLayer3 = L.mapbox.featureLayer().addTo(map);
 
-// Add custom popups to each using our custom feature properties
+var geoJson3 = myLayer3.loadURL('../nightlife-rome.geojson');
 
 function popupMaker(e, templateCreator){
   var marker = e.layer,
@@ -47,6 +47,21 @@ var attractionTemplate = function(feature){
 
 }
 
+var nightlifeTemplate = function(feature){
+  var nightlifeName = feature.properties.name;
+  var nightlifeSummary = feature.properties.summary;
+  var nightlifeCost = feature.properties.cost;
+
+  return '<b>Name:</b> ' +
+          nightlifeName +
+          '<br />' +
+          '<b>What\'s here?</b> ' +
+          nightlifeSummary +
+          '<br />' +
+          '<b>Cost (€)</b>: ' +
+          nightlifeCost;
+}
+
 myLayer.on('layeradd', function(e){
   popupMaker(e, restaurantTemplate);
 });
@@ -55,9 +70,16 @@ myLayer2.on('layeradd', function(e){
   popupMaker(e, attractionTemplate);
 });
 
+myLayer3.on('layeradd', function(e){
+  popupMaker(e, nightlifeTemplate);
+});
+
 // Add features to the map
 myLayer.setGeoJSON(geoJson);
 myLayer2.setGeoJSON(geoJson2);
+myLayer3.setGeoJSON(geoJson2);
 
 //filter
 var filterGroup = document.getElementById('filter-group');
+
+//console log for default view
