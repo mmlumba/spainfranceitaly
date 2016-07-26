@@ -13,6 +13,10 @@ var myLayer2 = L.mapbox.featureLayer().addTo(map);
 
 var geoJson2 = myLayer2.loadURL('../attractions-rome.geojson');
 
+var myLayer3 = L.mapbox.featureLayer().addTo(map);
+
+var geoJson3 = myLayer3.loadURL('../nightlife-rome.geojson');
+
 function popupMaker(e, templateCreator){
   var marker = e.layer,
       feature = marker.feature;
@@ -43,6 +47,21 @@ var attractionTemplate = function(feature){
 
 }
 
+var nightlifeTemplate = function(feature){
+  var nightlifeName = feature.properties.name;
+  var nightlifeSummary = feature.properties.summary;
+  var nightlifeCost = feature.properties.cost;
+
+  return '<b>Name:</b> ' +
+          nightlifeName +
+          '<br />' +
+          '<b>What\'s here?</b> ' +
+          nightlifeSummary +
+          '<br />' +
+          '<b>Cost (€)</b>: ' +
+          nightlifeCost;
+}
+
 myLayer.on('layeradd', function(e){
   popupMaker(e, restaurantTemplate);
 });
@@ -51,9 +70,16 @@ myLayer2.on('layeradd', function(e){
   popupMaker(e, attractionTemplate);
 });
 
+myLayer3.on('layeradd', function(e){
+  popupMaker(e, nightlifeTemplate);
+});
+
 // Add features to the map
 myLayer.setGeoJSON(geoJson);
 myLayer2.setGeoJSON(geoJson2);
+myLayer3.setGeoJSON(geoJson2);
 
 //filter
 var filterGroup = document.getElementById('filter-group');
+
+//console log for default view
