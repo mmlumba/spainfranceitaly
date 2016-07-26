@@ -7,15 +7,11 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //adds a new layer to the map
 var myLayer = L.mapbox.featureLayer().addTo(map);
 
-//var geoJson = myLayer.loadURL('food-rome.geojson');
+var geoJson = myLayer.loadURL('../food-rome.geojson');
 
 var myLayer2 = L.mapbox.featureLayer().addTo(map);
 
-var geoJson = food();
-
-var geoJson2 = attractions();
-
-// Add custom popups to each using our custom feature properties
+var geoJson2 = myLayer2.loadURL('../attractions-rome.geojson');
 
 function popupMaker(e, templateCreator){
   var marker = e.layer,
