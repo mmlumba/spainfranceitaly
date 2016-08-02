@@ -147,6 +147,19 @@
   {
     "type": "Feature",
     "properties": {
+      "name": "Leaning Tower of Pisa",
+      "marker-color": "#104E8B",
+      "marker-symbol": "monument",
+      "city": "Pisa"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [10.396597, 43.722952]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
       "name": "Roman Colosseum",
       "marker-color": "#104E8B",
       "marker-symbol": "monument",
