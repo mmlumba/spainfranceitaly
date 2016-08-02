@@ -4,6 +4,27 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibW1sdW1iYSIsImEiOiJjaXFqd29uYzUwMGdsZ3JqOWRnb
 var map = L.mapbox.map('map', 'mapbox.streets')
     .setView([41.32, 9.58], 5.0);
 
+var cityPoints = [[-3.697129, 40.414495],
+[2.175512, 41.396665],
+[7.1026604, 43.5710905],
+[7.4258741, 43.7391011],
+[10.396597, 43.722952],
+[11.254054, 43.768577]//map position of florence
+,
+[12.503990, 41.901981] //map position of rome
+]
+
+function flyToMe (coordinates){
+  var placeClass = 'place-'+index+1;
+  for (var i = 0; i < cityPoints.length; i++){
+    document.getElementById('placeClass').addEventListener('click', function(){
+      map.flyTo({center: cityPoints[i]});
+    });
+  }
+}
+//zoom for madrid, antibes, monaco, florence, pisa = 13
+//barcelona, rome = 12
+
 //category layers
 var foodLayer = L.mapbox.featureLayer().addTo(map);
 var attrLayer = L.mapbox.featureLayer().addTo(map);
