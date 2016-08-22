@@ -4,6 +4,10 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibW1sdW1iYSIsImEiOiJjaXFqd29uYzUwMGdsZ3JqOWRnb
 var map = L.mapbox.map('map', 'mapbox.streets')
     .setView([41.32, 9.58], 5.0);
 
+    var southwest = [-40, 51];
+    var northeast = [52,58];
+    var bounds = L.latLngBounds(southwest, northeast);
+/*
 var cityPoints = [[-3.697129, 40.414495],
 [2.175512, 41.396665],
 [7.1026604, 43.5710905],
@@ -21,7 +25,7 @@ function flyToMe (coordinates){
       map.flyTo({center: cityPoints[i]});
     });
   }
-}
+}*/
 //zoom for madrid, antibes, monaco, florence, pisa = 13
 //barcelona, rome = 12
 
@@ -95,8 +99,4 @@ nightLayer.on('layeradd', function(e){
 foodLayer.setGeoJSON(foodGeoJson);
 attrLayer.setGeoJSON(attrGeoJson);
 nightLayer.setGeoJSON(nightGeoJson);
-
-//filter
-var filterGroup = document.getElementById('filter-group');
-
-//console log for default view
+map.setMaxBounds(bounds);
